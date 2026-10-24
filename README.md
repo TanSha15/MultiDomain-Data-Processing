@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains data cleaning and preprocessing projects using datasets from multiple real-world platforms, including Amazon, Netflix, and Airbnb.
+This repository contains data cleaning and preprocessing projects using datasets from multiple real-world platforms, including Amazon, Netflix, and Zomato.
 
 The primary objective is to clean raw datasets, improve data quality, maintain consistency, handle missing values, and prepare the data for further analysis and machine learning applications using Python.
 
@@ -13,11 +13,11 @@ The original datasets can be downloaded from Kaggle using the links below.
 
 | Dataset | Kaggle Source | Description |
 |---|---|---|
-| Amazon | [Amazon Prime Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows) | Dataset containing information about movies and TV shows available on Amazon Prime Video. |
-| Netflix | [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows) | Dataset containing information about movies and TV shows available on Netflix. |
-| Airbnb | [New York City Airbnb Open Data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) | Dataset containing information about Airbnb listings, hosts, prices, locations, and reviews in New York City. |
+| Amazon | [Amazon Prime Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows) | Information about movies and TV shows available on Amazon Prime Video. |
+| Netflix | [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows) | Information about movies and TV shows available on Netflix. |
+| Zomato | [Zomato Restaurants Dataset](https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data) | Restaurant-related information, including ratings, cuisines, locations, and other restaurant attributes. |
 
-**Note:** The links above are commonly used Kaggle datasets. Verify that they match the exact CSV files used in this project before publishing.
+**Note:** Verify that the Kaggle links match the exact CSV files used in this project. If your Zomato dataset came from a different Kaggle source, replace its link accordingly.
 
 ## Project Objectives
 
@@ -66,8 +66,6 @@ Applied additional transformations as required to improve data consistency, stru
 
 ## Workflow
 
-The general workflow followed in this project is:
-
 1. Load the original CSV dataset.
 2. Inspect the dataset structure, columns, and data types.
 3. Identify redundant columns and duplicate records.
@@ -79,7 +77,7 @@ The general workflow followed in this project is:
 
 ## Repository Structure
 
-The following is a suggested directory structure for organizing the project.
+The following is a suggested directory structure. Adjust the names to match your actual files.
 
 ```text
 MultiDomain-Data-Cleaning/
@@ -94,15 +92,13 @@ MultiDomain-Data-Cleaning/
 |   |-- processed_data.csv
 |   |-- data_cleaning.ipynb
 |
-|-- Airbnb/
+|-- Zomato/
 |   |-- original_data.csv
 |   |-- processed_data.csv
 |   |-- data_cleaning.ipynb
 |
 |-- README.md
 ```
-
-The folder and file names above are illustrative. Update them to match the actual files in your repository.
 
 ## Expected Outcomes
 
@@ -129,4 +125,3 @@ The original datasets are credited to their respective creators on Kaggle. Pleas
 ## Author
 
 **Tanish Sharma**
-
